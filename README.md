@@ -1,10 +1,10 @@
-# Concorde
+# BLITZ
 
 Open `index.html` in a browser to view the website.
 
 ## Images
 
-Replace `images/logo.svg` and `images/main-image.svg` with your artwork, or update the corresponding image paths in `index.html` if using PNG or JPG files.
+The header uses the compact wordmark (`images/blitz-wordmark.png`); the main title uses the full supplied logo (`images/blitz-logo.png`). Arrow motifs (`images/arrows.svg`) and checker patterns decorate the backgrounds. The site also uses a yellow lightning favicon (`images/logo.svg`), an empty main-image placeholder (`images/main-image.svg`), and a white checker pattern (`images/checker.svg`). The placeholder, checker pattern and favicon are editable SVG assets; the supplied logo is preserved as a PNG. Replace them with final brand artwork or update the image paths in `index.html` for PNG/JPG files. The theme uses black, yellow and white with no gradients.
 
 ## Portfolio documents
 

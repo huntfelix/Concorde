@@ -1,5 +1,5 @@
 /* =====================================================
-   CONCORDE STEM RACING
+   BLITZ RACING
    Main stylesheet
 ===================================================== */
 
@@ -15,8 +15,8 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #ffffff;
-    color: #16365d;
+    background: #000000;
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -43,10 +43,10 @@ textarea {
     width: 100%;
     z-index: 1000;
 
-    background: #ffffff;
+    background: #000000;
 
 
-    border-bottom: 1px solid #cbdff3;
+    border-bottom: 1px solid #343434;
 }
 
 .nav-container {
@@ -77,13 +77,13 @@ textarea {
     text-transform: uppercase;
     letter-spacing: 1px;
 
-    color: #45678c;
+    color: #c6c6c6;
 
     transition: 0.2s ease;
 }
 
 .navbar nav a:hover {
-    color: #1764c0;
+    color: #ffe600;
 }
 
 /* =====================================================
@@ -94,14 +94,6 @@ textarea {
     max-width: 1400px;
     margin: auto;
     padding: 140px 40px;
-}
-
-.eyebrow {
-    color: #2563a6;
-    font-size: 0.75rem;
-    font-weight: bold;
-    letter-spacing: 3px;
-    margin-bottom: 20px;
 }
 
 .section-heading {
@@ -115,7 +107,7 @@ textarea {
 }
 
 .section-heading h2 span {
-    color: #356da8;
+    color: #dedede;
 }
 
 
@@ -133,29 +125,29 @@ textarea {
     letter-spacing: 1px;
     text-transform: uppercase;
 
-    border: 1px solid #1764c0;
+    border: 1px solid #ffe600;
 
     transition: 0.25s ease;
 }
 
 .primary-button {
-    background: #1764c0;
-    color: #ffffff;
+    background: #ffe600;
+    color: #000000;
 }
 
 .primary-button:hover {
     background: transparent;
-    color: #1764c0;
+    color: #ffe600;
 }
 
 .secondary-button {
-    border-color: #87b5e6;
-    color: #45678c;
+    border-color: #737373;
+    color: #c6c6c6;
 }
 
 .secondary-button:hover {
-    border-color: #1764c0;
-    color: #1764c0;
+    border-color: #ffe600;
+    color: #ffe600;
 }
 
 
@@ -182,7 +174,7 @@ textarea {
 }
 
 .hero h1 {
-    font-size: clamp(2.75rem, 6vw, 6rem);
+    font-size: clamp(3.5rem, 8vw, 8rem);
     line-height: 1.1;
     letter-spacing: -1px;
     font-weight: 900;
@@ -191,13 +183,13 @@ textarea {
 }
 
 .hero h1 span {
-    color: #356da8;
+    color: #ffe600;
 }
 
 .hero-description {
     max-width: 600px;
 
-    color: #45678c;
+    color: #c6c6c6;
     font-size: 1.1rem;
 
     margin-bottom: 40px;
@@ -211,20 +203,14 @@ textarea {
 
 
 .hero-image { min-width: 0; }
-.hero-image img { display: block; width: 100%; height: auto; border: 1px solid #cbdff3; }
+.hero-image img { display: block; width: 100%; height: auto; border: 1px solid #343434; }
 
 /* =====================================================
    ABOUT
 ===================================================== */
 
 .about {
-    border-top: 1px solid #d9e7f5;
-}
-
-.about-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 100px;
+    border-top: 1px solid #343434;
 }
 
 .about-text {
@@ -232,7 +218,7 @@ textarea {
 }
 
 .about-text p {
-    color: #45678c;
+    color: #c6c6c6;
     font-size: 1.15rem;
     margin-bottom: 25px;
 }
@@ -242,47 +228,16 @@ textarea {
 
     margin-top: 20px;
 
-    border-bottom: 1px solid #1764c0;
+    border-bottom: 1px solid #ffe600;
     padding-bottom: 5px;
 }
-
-.stats {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-
-    border-top: 1px solid #cbdff3;
-    border-left: 1px solid #cbdff3;
-}
-
-.stat {
-    padding: 35px;
-
-    border-right: 1px solid #cbdff3;
-    border-bottom: 1px solid #cbdff3;
-}
-
-.stat strong {
-    display: block;
-
-    font-size: 1.25rem;
-    line-height: 1;
-
-    margin-bottom: 10px;
-}
-
-.stat span {
-    color: #356da8;
-    font-size: 0.75rem;
-    letter-spacing: 2px;
-}
-
 
 /* =====================================================
    TEAM
 ===================================================== */
 
 .team {
-    border-top: 1px solid #d9e7f5;
+    border-top: 1px solid #343434;
 }
 
 .team-grid {
@@ -292,7 +247,7 @@ textarea {
 }
 
 .team-card {
-    background: #f3f8ff;
+    background: #111111;
 }
 
 .team-image {
@@ -302,9 +257,9 @@ textarea {
     align-items: center;
     justify-content: center;
 
-    background: #e5f0fc;
+    background: #1b1b1b;
 
-    color: #45678c;
+    color: #c6c6c6;
     font-size: 0.7rem;
     letter-spacing: 2px;
 }
@@ -319,7 +274,7 @@ textarea {
 }
 
 .team-info p {
-    color: #356da8;
+    color: #dedede;
     font-size: 0.8rem;
     letter-spacing: 1px;
 }
@@ -330,7 +285,7 @@ textarea {
 ===================================================== */
 
 .portfolio {
-    border-top: 1px solid #d9e7f5;
+    border-top: 1px solid #343434;
 }
 
 .portfolio-grid {
@@ -339,11 +294,11 @@ textarea {
     gap: 25px;
 }
 
-.document-card { min-width: 0; padding: 24px; background: #f3f8ff; border: 1px solid #cbdff3; }
+.document-card { min-width: 0; padding: 24px; background: #111111; border: 1px solid #343434; }
 .document-toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
 .document-toolbar h3 { font-size: 1.5rem; }
 .document-toolbar { margin-bottom: 20px; }
-.document-preview { height: clamp(280px, 50vh, 520px); border: 1px solid #cbdff3; background: #e5f0fc; }
+.document-preview { height: clamp(280px, 50vh, 520px); border: 1px solid #343434; background: #1b1b1b; }
 .document-preview iframe { display: block; width: 100%; height: 100%; border: 0; }
 .document-skip { font-size: 0.85rem; }
 
@@ -352,7 +307,7 @@ textarea {
 ===================================================== */
 
 .sponsorship {
-    border-top: 1px solid #d9e7f5;
+    border-top: 1px solid #343434;
 }
 
 .sponsor-content {
@@ -366,7 +321,7 @@ textarea {
 }
 
 .sponsor-text p {
-    color: #45678c;
+    color: #c6c6c6;
     margin-bottom: 25px;
 }
 
@@ -380,15 +335,15 @@ textarea {
 
     padding: 25px 0;
 
-    border-top: 1px solid #cbdff3;
+    border-top: 1px solid #343434;
 }
 
 .sponsor-level:last-child {
-    border-bottom: 1px solid #cbdff3;
+    border-bottom: 1px solid #343434;
 }
 
 .sponsor-level > span {
-    color: #356da8;
+    color: #dedede;
 }
 
 .sponsor-level h3 {
@@ -396,7 +351,7 @@ textarea {
 }
 
 .sponsor-level p {
-    color: #356da8;
+    color: #dedede;
     font-size: 0.9rem;
 }
 
@@ -406,7 +361,7 @@ textarea {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
-    border: 1px solid #cbdff3;
+    border: 1px solid #343434;
 }
 
 .sponsor-logos div {
@@ -414,11 +369,11 @@ textarea {
 
     text-align: center;
 
-    color: #45678c;
+    color: #c6c6c6;
     font-size: 0.75rem;
     letter-spacing: 2px;
 
-    border-right: 1px solid #cbdff3;
+    border-right: 1px solid #343434;
 }
 
 .sponsor-logos div:last-child {
@@ -431,7 +386,7 @@ textarea {
 ===================================================== */
 
 .contact {
-    border-top: 1px solid #d9e7f5;
+    border-top: 1px solid #343434;
 }
 
 .contact-grid {
@@ -441,23 +396,23 @@ textarea {
 }
 
 .contact-intro p {
-    color: #45678c;
+    color: #c6c6c6;
     font-size: 1.2rem;
     max-width: 500px;
 }
 
 .contact-details {
     margin: 0;
-    border-top: 1px solid #cbdff3;
+    border-top: 1px solid #343434;
 }
 
 .contact-item {
     padding: 20px 0;
-    border-bottom: 1px solid #cbdff3;
+    border-bottom: 1px solid #343434;
 }
 
 .contact-item dt {
-    color: #2563a6;
+    color: #ffe600;
     font-size: 0.8rem;
     font-weight: bold;
     margin-bottom: 6px;
@@ -465,7 +420,7 @@ textarea {
 
 .contact-item dd {
     margin: 0;
-    color: #16365d;
+    color: #ffffff;
     overflow-wrap: anywhere;
 }
 
@@ -473,10 +428,10 @@ textarea {
    FOOTER
 ===================================================== */
 
-footer { border-top: 1px solid #d9e7f5; padding: 40px; }
+footer { border-top: 1px solid #343434; padding: 40px; }
 .footer-links { max-width: 1320px; margin: auto; display: flex; flex-wrap: wrap; gap: 20px 32px; }
-.footer-links a { color: #356da8; font-size: 0.9rem; }
-.footer-links a:hover { color: #1764c0; }
+.footer-links a { color: #dedede; font-size: 0.9rem; }
+.footer-links a:hover { color: #ffe600; }
 
 /* =====================================================
    MOBILE
@@ -500,7 +455,6 @@ footer { border-top: 1px solid #d9e7f5; padding: 40px; }
         letter-spacing: -1px;
     }
 
-    .about-grid,
     .sponsor-content,
     .contact-grid {
         grid-template-columns: 1fr;
@@ -524,7 +478,7 @@ footer { border-top: 1px solid #d9e7f5; padding: 40px; }
     }
 
     .sponsor-logos div {
-        border-bottom: 1px solid #cbdff3;
+        border-bottom: 1px solid #343434;
     }
 
 }
@@ -536,11 +490,7 @@ footer { border-top: 1px solid #d9e7f5; padding: 40px; }
         grid-template-columns: 1fr;
     }
 
-    .stats {
-        grid-template-columns: 1fr;
-    }
-
-    .sponsor-logos {
+.sponsor-logos {
         grid-template-columns: 1fr;
     }
 
@@ -556,12 +506,15 @@ footer { border-top: 1px solid #d9e7f5; padding: 40px; }
 
 /* Homepage imagery and scroll reveals */
 .logo { display: inline-flex; align-items: center; }
-.logo img { display: block; width: 64px; height: 48px; }
+.logo img { display: block; width: 100%; height: auto; }
 .hero { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 48px; }
 section { scroll-margin-top: 100px; }
-:focus-visible { outline: 3px solid #1764c0; outline-offset: 5px; }
+:focus-visible { outline: 3px solid #ffe600; outline-offset: 5px; }
 .reveal-ready { opacity: 0; transform: translateY(36px); transition: opacity 650ms ease, transform 650ms cubic-bezier(0.2, 0.7, 0.2, 1); }
-.reveal-ready.visible, .reveal-ready:focus-within { opacity: 1; transform: translateY(0); }
+.section-heading.reveal-ready { transform: translateX(-64px); }
+.reveal-ready.visible, .reveal-ready:focus-within { opacity: 1; transform: translate(0, 0); }
+.reveal-ready.visible { transition-delay: var(--reveal-delay, 0ms); }
+.reveal-ready:focus-within { transition-delay: 0ms; }
 @media (max-width: 900px) {
     .hero { grid-template-columns: 1fr; gap: 40px; }
     .hero-image { width: 100%; max-width: 640px; }
@@ -572,5 +525,135 @@ section { scroll-margin-top: 100px; }
 }
 @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
-    .reveal-ready { opacity: 1; transform: none; transition: none; }
+    .reveal-ready, .section-heading.reveal-ready { opacity: 1; transform: none; transition: none; transition-delay: 0ms; }
+}
+
+/* BLITZ identity: flat yellow arrows, lightning and white checks. */
+html { color-scheme: dark; }
+::selection { background: #ffe600; color: #000000; }
+.logo { flex: 0 0 180px; }
+.navbar { border-bottom: 2px solid #ffe600; }
+.navbar nav a { font-weight: 700; }
+.navbar nav a:hover { background: #1b1b1b; }
+.hero { padding-bottom: 170px; }
+.hero::after {
+    content: ""; position: absolute; pointer-events: none;
+    left: 0; bottom: 24px; width: min(48%, 384px); aspect-ratio: 4 / 1;
+    background: url("images/checker-strip-horizontal.svg") no-repeat center / contain;
+    opacity: 0.2;
+}
+.hero h1 { font-style: italic; letter-spacing: -0.045em; line-height: 0.95; }
+.hero-image img { border: 0; }
+.section-heading { display: flex; align-items: flex-start; gap: 20px; }
+.section-heading::before {
+    content: "";
+    flex: 0 0 clamp(24px, 4vw, 48px);
+    height: clamp(24px, 4vw, 48px);
+    margin-top: 0.5em;
+    background: #ffe600;
+    clip-path: polygon(0 32%, 54% 32%, 54% 0, 100% 50%, 54% 100%, 54% 68%, 0 68%);
+}
+.section-heading h2 { min-width: 0; overflow-wrap: anywhere; font-style: italic; letter-spacing: -0.045em; }
+.button { display: inline-flex; align-items: center; gap: 20px; }
+.button::after {
+    content: "";
+    width: 18px;
+    height: 14px;
+    background: currentColor;
+    clip-path: polygon(0 35%, 55% 35%, 55% 0, 100% 50%, 55% 100%, 55% 65%, 0 65%);
+    transition: transform 200ms ease;
+}
+.button:hover::after { transform: translateX(4px); }
+.secondary-button { color: #ffe600; border-color: #ffe600; }
+.team-info { border-top: 3px solid #ffe600; }
+.document-toolbar { border-left: 4px solid #ffe600; padding-left: 16px; }
+.sponsor-level > span { color: #ffe600; font-weight: 700; }
+footer { position: relative; padding-top: 64px; }
+footer::before {
+    content: ""; position: absolute; pointer-events: none;
+    right: 0; top: 0; width: min(40%, 256px); aspect-ratio: 4 / 1;
+    background: url("images/checker-strip-horizontal.svg") no-repeat center / contain;
+    transform: rotate(180deg); opacity: 0.12;
+}
+@media (max-width: 900px) {
+    .hero { padding-bottom: 72px; }
+}
+@media (max-width: 500px) {
+    .section-heading { gap: 12px; }
+    .section-heading h2 { font-size: clamp(1.75rem, 8vw, 2.5rem); }
+}
+@media (prefers-reduced-motion: reduce) {
+    .button::after { transition: none; }
+    .button:hover::after { transform: none; }
+}
+
+/* Supplied BLITZ artwork, displayed without cropping or stretching. */
+.hero-logo { width: 100%; max-width: 650px; }
+.hero-logo img { display: block; width: 100%; height: auto; }
+@media (max-width: 600px) {
+    .logo { flex-basis: 112px; }
+    .navbar nav { min-width: 0; }
+}
+
+/* Race graphics: right-angle rotations and fading three-wide checker strips. */
+.section, .hero { position: relative; isolation: isolate; }
+.section::after, .hero::before {
+    content: ""; position: absolute; z-index: -1; pointer-events: none;
+}
+.hero::before {
+    right: 3%; bottom: 80px; width: 200px; height: 200px;
+    background: url("images/arrows.svg") no-repeat center / contain;
+    transform: rotate(90deg); opacity: 0.14;
+}
+.about::after, .contact::after {
+    width: 72px; height: 288px;
+    background: url("images/checker-strip.svg") no-repeat center / contain;
+    opacity: 0.14;
+}
+.about::after { right: 24px; top: 36px; }
+.contact::after { left: 0; bottom: 32px; transform: rotate(180deg); }
+.portfolio::after {
+    right: 24px; top: 48px; width: min(48%, 384px); aspect-ratio: 4 / 1;
+    background: url("images/checker-strip-horizontal.svg") no-repeat center / contain;
+    transform: rotate(180deg); opacity: 0.14;
+}
+.team::after, .sponsorship::after {
+    width: 200px; height: 200px;
+    background: url("images/arrows.svg") no-repeat center / contain;
+    opacity: 0.13;
+}
+.team::after { right: 24px; top: 28px; transform: rotate(180deg); }
+.sponsorship::after { left: 0; bottom: 40px; transform: rotate(270deg); }
+.team-image { position: relative; isolation: isolate; overflow: hidden; }
+.team-image::before {
+    content: ""; position: absolute; z-index: -1; pointer-events: none;
+    right: 0; top: 0; width: 36px; height: 144px;
+    background: url("images/checker-strip.svg") no-repeat center / contain;
+    opacity: 0.18;
+}
+.team-card:nth-child(2n) .team-image::before {
+    top: auto; bottom: 0; left: 0; right: auto; transform: rotate(180deg);
+}
+.team-card:nth-child(3) .team-image::before {
+    top: auto; bottom: 0; left: 0; right: auto; width: 144px; height: 36px;
+    background-image: url("images/checker-strip-horizontal.svg");
+}
+.sponsor-logos { position: relative; }
+.sponsor-logos::before {
+    content: ""; position: absolute; pointer-events: none;
+    right: 0; top: -36px; width: 144px; height: 36px;
+    background: url("images/checker-strip-horizontal.svg") no-repeat center / contain;
+    transform: rotate(180deg); opacity: 0.3;
+}
+.document-toolbar::after {
+    content: ""; flex: 0 0 40px; height: 40px;
+    background: url("images/arrows.svg") no-repeat center / contain;
+    transform: rotate(90deg); opacity: 0.7;
+}
+.document-card:nth-child(2) .document-toolbar::after { transform: rotate(270deg); }
+@media (max-width: 600px) {
+    .hero::before { width: 120px; height: 120px; bottom: 56px; opacity: 0.08; }
+    .team::after, .sponsorship::after { width: 120px; height: 120px; opacity: 0.08; }
+    .about::after, .contact::after { width: 48px; height: 192px; opacity: 0.08; }
+    .portfolio::after { top: 24px; opacity: 0.08; }
 }
