@@ -10,4 +10,4 @@ The header uses the compact wordmark (`images/blitz-wordmark.png`); the main tit
 
 The two viewers currently show three blank placeholder pages each. To publish your documents, save them as PDFs in `documents/`, then replace each iframe's `src="documents/placeholder.html"` in `index.html` with its PDF path. Export Word documents to PDF first for browser viewing.
 
-Both documents are open and scrollable immediately, stacked vertically. Scroll outside a viewer to move down the page, or use **Skip past portfolio** to jump to the next section. Placeholder files do not upload or store visitor documents.
+Both documents are open and scrollable immediately, stacked vertically. Scroll outside a viewer to move down the page. Placeholder files do not upload or store visitor documents.

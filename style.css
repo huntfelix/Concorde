@@ -130,27 +130,6 @@ textarea {
     transition: 0.25s ease;
 }
 
-.primary-button {
-    background: #ffe600;
-    color: #000000;
-}
-
-.primary-button:hover {
-    background: transparent;
-    color: #ffe600;
-}
-
-.secondary-button {
-    border-color: #737373;
-    color: #c6c6c6;
-}
-
-.secondary-button:hover {
-    border-color: #ffe600;
-    color: #ffe600;
-}
-
-
 /* =====================================================
    HERO
 ===================================================== */
@@ -300,7 +279,6 @@ textarea {
 .document-toolbar { margin-bottom: 20px; }
 .document-preview { height: clamp(280px, 50vh, 520px); border: 1px solid #343434; background: #1b1b1b; }
 .document-preview iframe { display: block; width: 100%; height: 100%; border: 0; }
-.document-skip { font-size: 0.85rem; }
 
 /* =====================================================
    SPONSORSHIP
@@ -564,7 +542,6 @@ html { color-scheme: dark; }
     transition: transform 200ms ease;
 }
 .button:hover::after { transform: translateX(4px); }
-.secondary-button { color: #ffe600; border-color: #ffe600; }
 .team-info { border-top: 3px solid #ffe600; }
 .document-toolbar { border-left: 4px solid #ffe600; padding-left: 16px; }
 .sponsor-level > span { color: #ffe600; font-weight: 700; }
@@ -656,4 +633,31 @@ footer::before {
     .team::after, .sponsorship::after { width: 120px; height: 120px; opacity: 0.08; }
     .about::after, .contact::after { width: 48px; height: 192px; opacity: 0.08; }
     .portfolio::after { top: 24px; opacity: 0.08; }
+}
+
+/* Shared call-to-action button treatment. */
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 24px;
+    border: 1px solid #ffe600;
+    border-radius: 0;
+    background: #ffe600;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 200ms ease, color 200ms ease;
+}
+.button:hover, .button:focus-visible {
+    background: #000000;
+    color: #ffe600;
+}
+@media (prefers-reduced-motion: reduce) {
+    .button { transition: none; }
 }
